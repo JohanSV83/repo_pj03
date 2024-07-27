@@ -8,7 +8,7 @@ import tratamientoDx as tr
 
 data=pd.read_csv('https://raw.githubusercontent.com/krishnaik06/Multiple-Linear-Regression/master/50_Startups.csv')
 
-opcion=input("ingresa opcion 1 para ver correlacion de variables\ningresa opcion 2 para eliminar columnas erroneas\ningresa opcion 3 para ver pairplot\ningresa opcion 4 limpiar filas duplicadas")
+opcion=input("ingresa opcion 1 para ver correlacion de variables\ningresa opcion 2 para eliminar columnas erroneas\ningresa opcion 3 para ver pairplot\ningresa opcion 4 ver grafico pairplot")
 def menu():
     if opcion=='1':
       explo.Mostrar_Correlacion(data)
