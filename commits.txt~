@@ -1,0 +1,17 @@
+commit a84371714a2f70b595846faa94f3db96a5f86464
+Author: Johan Sanchez <you@example.com>
+Date:   Fri Jul 26 18:54:21 2024 -0500
+
+    se hizo merge de la rama explorador y importe su funcion a archivo main
+
+commit 9c03dca439b883115adfbb5a85d09890b9698254
+Author: Johan Sanchez <you@example.com>
+Date:   Fri Jul 26 18:45:55 2024 -0500
+
+    agregue una funcion de mostrar correlacion
+
+commit ffa425bae9f3f8c3d7eaaeaf66fdb1b0fbd07a53
+Author: Johan Sanchez <you@example.com>
+Date:   Fri Jul 26 18:30:56 2024 -0500
+
+    agregue archivo main.py
