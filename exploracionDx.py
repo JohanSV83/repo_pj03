@@ -8,3 +8,7 @@ def Mostrar_Correlacion(df):
   print(correlation_matrix)
   sns.heatmap(correlation_matrix, annot=True, cmap='Blues')
   return  plt.show()
+
+
+  def Mostrar_Grafico_Pairplot(df):
+    return sns.pairplot(df)
