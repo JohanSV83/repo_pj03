@@ -15,8 +15,13 @@ def menu():
       elif opcion=='2':
       tr.eliminar_filas_erroneas(data)
       elif opcion=='3':
+      tr.Eliminar_Limpiar_datos(data)
       elif opcion=='4':
-      ex.Mostrar_Grafico_Pairplot(data)  
+      ex.Mostrar_Grafico_Pairplot(data) 
+
+
+menu()
+
   
               
 
