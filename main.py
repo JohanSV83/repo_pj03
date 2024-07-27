@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import exploracionDx.py  as explo
-import tratamientoDx.py as tr
+import exploracionDx  as explo
+import tratamientoDx as tr
 
 
 data=pd.read_csv('https://raw.githubusercontent.com/krishnaik06/Multiple-Linear-Regression/master/50_Startups.csv')
