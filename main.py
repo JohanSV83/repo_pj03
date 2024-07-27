@@ -12,11 +12,11 @@ opcion=input("ingresa opcion 1 para ver correlacion de variables\ningresa opcion
 def menu():
     if opcion=='1':
       ex.Mostrar_Correlacion(data)
-      elif opcion=='2':
+    elif opcion=='2':
       tr.eliminar_filas_erroneas(data)
-      elif opcion=='3':
+    elif opcion=='3':
       tr.Eliminar_Limpiar_datos(data)
-      elif opcion=='4':
+    elif opcion=='4':
       ex.Mostrar_Grafico_Pairplot(data) 
 
 
