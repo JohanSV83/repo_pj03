@@ -14,14 +14,4 @@ def Mostrar_Correlacion(df):
     return sns.pairplot(df)
   
 
-  def eliminar_filas_erroneas(df,eliminar_nulos=True,eliminar_duplicados=True,condicion=None):
-    if eliminar_nulos:
-      df.dropna()
-    if eliminar_duplicados:
-      df.drop_duplicates()
-    if condicion is not None:
-      df=condicion(df)
-
-    return df  
-
-
+  
