@@ -13,9 +13,11 @@ def menu():
     if opcion=='1':
       explo.Mostrar_Correlacion(data)
     elif opcion=='2':
-      tr.eliminar_filas_erroneas(data)
-    elif opcion=='3':
       tr.Eliminar_Limpiar_datos(data)
+
+    elif opcion=='3':
+      tr.eliminar_filas_erroneas(data)  
+      
     elif opcion=='4':
       explo.Mostrar_Grafico_Pairplot(data) 
 
