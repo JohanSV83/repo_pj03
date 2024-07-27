@@ -12,3 +12,13 @@ def Eliminar_Limpiar_datos(df, metodo='eliminar', axis=0):
         raise ValueError("El método debe ser 'eliminar' o 'rellenar'.")
     
     return df_limpio
+
+def eliminar_filas_erroneas(df,eliminar_nulos=True,eliminar_duplicados=True,condicion=None):
+    if eliminar_nulos:
+      df.dropna()
+    if eliminar_duplicados:
+      df.drop_duplicates()
+    if condicion is not None:
+      df=condicion(df)
+
+    return df
