@@ -10,8 +10,8 @@ def Mostrar_Correlacion(df):
   return  plt.show()
 
 
-  def Mostrar_Grafico_Pairplot(df):
-    return sns.pairplot(df)
+def Mostrar_Grafico_Pairplot(df):
+   return sns.pairplot(df)
   
 
   
