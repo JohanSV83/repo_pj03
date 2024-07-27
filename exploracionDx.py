@@ -11,7 +11,9 @@ def Mostrar_Correlacion(df):
 
 
 def Mostrar_Grafico_Pairplot(df):
-   return sns.pairplot(df)
+    sns.pairplot(df)
+    return plt.show()
+    
   
 
   
